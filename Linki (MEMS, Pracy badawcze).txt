@@ -1,0 +1,4 @@
+1. https://microbit.org/projects/make-it-code-it/step-counter/
+2. https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-79
+3. https://kamami.pl/polozenia/558371-mma9553lr1-sensor-mems-zliczajacy-kroki-pedometer.html
+4. https://zadar.pl/medyczne
