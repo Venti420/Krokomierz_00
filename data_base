@@ -1,0 +1,25 @@
+CREATE TABLE `users` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `full_name` varchar(255),
+  `created_at` timestamp,
+  `adress` varchar(255),
+  `telephone` double,
+  `PESEL` double,
+  `implant_id` int
+);
+
+CREATE TABLE `implants` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `type` varchar(255) DEFAULT "pedometer",
+  `placement_date` timestamp COMMENT 'Implantation date'
+);
+
+CREATE TABLE `measurements` (
+  `number` int PRIMARY KEY AUTO_INCREMENT,
+  `time` timestamp,
+  `steps` int
+);
+
+ALTER TABLE `users` ADD FOREIGN KEY (`implant_id`) REFERENCES `implants` (`id`);
+
+ALTER TABLE `measurements` ADD FOREIGN KEY (`number`) REFERENCES `implants` (`id`);
