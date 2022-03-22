@@ -1,4 +1,3 @@
-1. https://microbit.org/projects/make-it-code-it/step-counter/
-2. https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-79
-3. https://kamami.pl/polozenia/558371-mma9553lr1-sensor-mems-zliczajacy-kroki-pedometer.html
-4. https://zadar.pl/medyczne
+https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-79 - Praca naukowa (Pozyskiwanie energii dla wszczepialnych urządzeń biomedycznych).
+https://kamami.pl/polozenia/558371-mma9553lr1-sensor-mems-zliczajacy-kroki-pedometer.html - (MMA9553LR1) sensor MEMS zliczający kroki (pedometer)
+https://zadar.pl/medyczne - Filamenty medyczne
