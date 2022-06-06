@@ -1,0 +1,20 @@
+{% extends "_base.jinja" %}
+{% block title %}Measurements{% endblock %}
+{% block content %}
+<table>
+    <tr>
+        <th>number</th>
+        <th>time</th>
+        <th>steps</th>
+        <th>implant_id</th>
+    </tr>
+    {% for measurement in measurements %}
+    <tr>
+        <td>{{ measurement["number"] }}</td>
+        <td>{{ measurement["time"] }}</td>
+        <td>{{ measurement["steps"] }}</td>
+        <td>{{ measurement["implant_id"] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

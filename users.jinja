@@ -1,0 +1,24 @@
+{% extends "_base.jinja" %}
+{% block title %}Users{% endblock %}
+{% block content %}
+<table>
+    <tr>
+        <th>id</th>
+        <th>full_name</th>
+        <th>created_at</th>
+        <th>address</th>
+        <th>telephone</th>
+        <th>pesel</th>
+    </tr>
+    {% for user in users %}
+    <tr>
+        <td>{{ user["id"] }}</td>
+        <td>{{ user["full_name"] }}</td>
+        <td>{{ user["created_at"] }}</td>
+        <td>{{ user["address"] }}</td>
+        <td>{{ user["telephone"] }}</td>
+        <td>{{ user["PESEL"] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

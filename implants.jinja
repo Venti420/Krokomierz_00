@@ -1,0 +1,20 @@
+{% extends "_base.jinja" %}
+{% block title %}Implants{% endblock %}
+{% block content %}
+<table>
+    <tr>
+        <th>id</th>
+        <th>type</th>
+        <th>placement_date</th>
+        <th>user_id</th>
+    </tr>
+    {% for implant in implants %}
+    <tr>
+        <td>{{ implant["id"] }}</td>
+        <td>{{ implant["type"] }}</td>
+        <td>{{ implant["placement_date"] }}</td>
+        <td>{{ implant["user_id"] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
